@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/rhel7.2
+FROM  registry.access.redhat.com/rhel7.2:latest
 MAINTAINER akram@free.fr
 RUN yum install -y squid
 ADD squid.conf /etc/squid/squid.conf
